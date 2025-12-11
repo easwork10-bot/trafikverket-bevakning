@@ -137,3 +137,12 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Ignore backend test scripts
+/testApicall.js
+/testCookies.js
+/testEmail.js
+/testKeepAlive.js
+/testOccasions.js
+/testSuggested.js
+/testWatcher.js

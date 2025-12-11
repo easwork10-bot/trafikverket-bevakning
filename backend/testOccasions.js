@@ -1,37 +1,42 @@
-import { trafikverketRequest } from "./apiClient.js";
+import { trafikverketRequest } from "./src/automation/apiClient.js";
 
-export async function fetchTimes(user) {
+async function testOccasions() {
+  const userId = 1;
+
   const body = {
     bookingSession: {
-      socialSecurityNumber: user.ssn,
-      licenceId: user.licenceId,
+      socialSecurityNumber: "200209162536", // samma som login
+      licenceId: 23,                // B96
       bookingModeId: 0,
       ignoreDebt: false,
       ignoreBookingHindrance: false,
-      examinationTypeId: user.examinationTypeId,
+      examinationTypeId: 52,        // körprov
       excludeExaminationCategories: [],
       rescheduleTypeId: 0,
       paymentIsActive: false,
-      paymentReference: "",
-      paymentUrl: "",
       searchedMonths: 0
     },
     occasionBundleQuery: {
       startDate: new Date().toISOString(),
       searchedMonths: 0,
-      locationId: user.cityId,
+      locationId: 1000118,          // Gävle
       nearbyLocationIds: [],
       languageId: 13,
       vehicleTypeId: 1,
       tachographTypeId: 1,
       occasionChoiceId: 1,
-      examinationTypeId: user.examinationTypeId
+      examinationTypeId: 52
     }
   };
 
-  return await trafikverketRequest(
-    user.user_id,
+  const result = await trafikverketRequest(
+    userId,
     "occasion-bundles",
     body
   );
+
+  console.log("RESULT FROM occasion-bundles:");
+  console.log(JSON.stringify(result, null, 2));
 }
+
+testOccasions();

@@ -1,28 +1,27 @@
+// src/automation/login.js
 import { chromium } from "playwright";
 import { browserConfig } from "./playwright.config.js";
-import { saveCookie } from "../services/cookieStore.js";
+import { replaceAllCookies } from "../services/cookieStore.js";
 import { log } from "../utils/logger.js";
 
-export async function startLoginSession(userId) {
+export async function performLogin(userId) {
   const browser = await chromium.launch(browserConfig);
   const page = await browser.newPage();
 
-  log("Opening Trafikverket login page...");
+  log.info(`Opening Trafikverket login page...`);
+  await page.goto(`https://fp.trafikverket.se/Boka/ng/`);
 
-  await page.goto("https://fp.trafikverket.se/Boka/ng/");
+  log.info("Waiting for user to log in manually...");
+  await page.waitForURL("**/licence", { timeout: 0 });
 
-  log("Waiting for user to log in manually...");
-  await page.waitForURL("**/licence",{ timeout: 0 }); 
-
-  log("User logged in. Waiting 1 second extra...");
-  await page.waitForTimeout(3000); //viktig extra delay
+  log.info(`User logged in. Waiting 3 seconds...`);
+  await page.waitForTimeout(3000);
 
   const cookies = await page.context().cookies();
 
-  log("Saving session cookie for user:", userId);
-  await saveCookie(userId, cookies);
+  log.info(`Saving all cookies for user: ${userId}`);
+  await replaceAllCookies(userId, cookies);
 
   await browser.close();
-
   return true;
 }
