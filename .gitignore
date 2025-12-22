@@ -139,10 +139,12 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # Ignore backend test scripts
-/testApicall.js
-/testCookies.js
-/testEmail.js
-/testKeepAlive.js
-/testOccasions.js
-/testSuggested.js
-/testWatcher.js
+backend/testApicall.js
+backend/testCookies.js
+backend/testEmail.js
+backend/testKeepAlive.js
+backend/testOccasions.js
+backend/testSuggested.js
+backend/testWatcher.js
+backend/testEmail2.js
+backend/receive-test.js

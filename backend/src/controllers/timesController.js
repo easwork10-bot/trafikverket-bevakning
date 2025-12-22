@@ -4,10 +4,9 @@ import { getTimes } from "../services/timesService.js";
 
 export async function getTimesController(req, res) {
   try {
-    const userId = 1;
-    const { ssn, licenceId, examTypeId, locationId } = req.body;
+    const { userId,ssn, licenceId, examTypeId, locationId } = req.body;
 
-    if (!ssn || !licenceId || !examTypeId || !locationId) {
+    if (!userId || !ssn || !licenceId || !examTypeId || !locationId) {
       return res.json(fail("Missing required fields"));
     }
 

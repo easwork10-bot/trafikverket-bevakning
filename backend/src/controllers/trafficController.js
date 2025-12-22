@@ -4,9 +4,10 @@ import { trafikverketRequest } from "../automation/apiClient.js";
 
 export async function getSearchInformation(req, res) {
   try {
-    const userId = 1;
-    const { ssn, licenceId } = req.body;
-
+    const {userId, ssn, licenceId } = req.body;
+    if (!userId) {
+      return res.json(fail("Missing userId"));
+    }
     if (!ssn || !licenceId) {
       return res.json(fail("Missing ssn or licenceId"));
     }

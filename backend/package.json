@@ -17,7 +17,9 @@
     "jsonwebtoken": "^9.0.2",
     "node-fetch": "^3.3.2",
     "pg": "^8.11.3",
-    "playwright": "^1.40.0"
+    "playwright": "^1.40.0",
+    "qrcode": "^1.5.4",
+    "resend": "^6.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"

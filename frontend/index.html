@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="btn">Start Login</button>
+  <br><br>
+  <img id="qr" width="320" />
+  <pre id="status"></pre>
+
+<script>
+let sessionId = null;
+let polling = false;   // ✅ ADD THIS
+
+btn.onclick = async () => {
+  polling = false;     // reset
+  status.textContent = "Starting…";
+  qr.src = "";
+
+  const r = await fetch("/api/login/qr/start", { method: "POST" });
+  const j = await r.json();
+  sessionId = j.sessionId;
+
+  qr.src = `/api/login/qr/${sessionId}?t=${Date.now()}`;
+  polling = true;      // ✅ START polling
+  poll();
+};
+
+async function poll() {
+  if (!polling) return;  // ✅ HARD STOP
+
+  const r = await fetch(`/api/login/qr/${sessionId}/status`);
+  const j = await r.json();
+  status.textContent = JSON.stringify(j);
+
+  if (j.status === "pending") {
+    qr.src = `/api/login/qr/${sessionId}?t=${Date.now()}`;
+    setTimeout(poll, 2000);
+    return;
+  }
+
+  // ✅ STOP EVERYTHING HERE
+  polling = false;
+  qr.src = "";
+
+  if (j.status === "success") {
+    alert("Logged in!");
+  } else {
+    alert("QR expired. Start again.");
+  }
+}
+</script>
+</body>
+</html>

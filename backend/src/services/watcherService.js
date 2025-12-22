@@ -32,57 +32,73 @@ export async function addWatcher(userId, ssn, licenceId, cityid, email) {
  * Ta bort watcher
  */
 export async function removeWatcher(userId, id, email, cityid) {
-  // 1. Delete by watcher ID
-  if (id && !email && !cityid) {
+  //  Safety check — never allow deletes without a user
+  if (!userId) {
+    throw new Error("userId is required to delete watchers");
+  }
+
+  /**
+   * 1 MOST SPECIFIC
+   * Delete a single watcher by ID
+   * This is the safest delete operation.
+   */
+  if (id) {
     await db.query(
-      `DELETE FROM watchers WHERE user_id=$1 AND id=$2`,
+      `DELETE FROM watchers
+       WHERE user_id = $1 AND id = $2`,
       [userId, id]
     );
-    log.info(`[WATCHER-SERVICE] Deleted watcher id=${id}`);
     return;
   }
 
-  // 2. Delete all watchers for this user
-  if (!id && userId && !email && !cityid) {
+  /**
+   * 2 Delete watchers for a user by email AND city
+   * Used when frontend knows exactly which watcher group to remove.
+   */
+  if (email && cityid) {
     await db.query(
-      `DELETE FROM watchers WHERE user_id=$1`,
-      [userId]
-    );
-    log.info(`[WATCHER-SERVICE] Deleted ALL watchers for user=${userId}`);
-    return;
-  }
-
-  // 3. Delete by email only
-  if (email && !id && !cityid) {
-    await db.query(
-      `DELETE FROM watchers WHERE email=$1`,
-      [email]
-    );
-    log.info(`[WATCHER-SERVICE] Deleted watchers for email=${email}`);
-    return;
-  }
-
-  // 4. Delete by user + city
-  if (userId && cityid && !email && !id) {
-    await db.query(
-      `DELETE FROM watchers WHERE user_id=$1 AND cityid=$2`,
-      [userId, cityid]
-    );
-    log.info(`[WATCHER-SERVICE] Deleted watchers for user=${userId} city=${cityid}`);
-    return;
-  }
-
-  // 5. Delete by user + email + city
-  if (userId && email && cityid && !id) {
-    await db.query(
-      `DELETE FROM watchers WHERE user_id=$1 AND email=$2 AND cityid=$3`,
+      `DELETE FROM watchers
+       WHERE user_id = $1
+         AND email = $2
+         AND cityid = $3`,
       [userId, email, cityid]
     );
-    log.info(`[WATCHER-SERVICE] Deleted specific watchers`);
     return;
   }
 
-  throw new Error("No valid delete conditions");
+  /**
+   * 3 Delete all watchers for a user in a specific city
+   * Example: user removes monitoring for a city.
+   */
+  if (cityid) {
+    await db.query(
+      `DELETE FROM watchers
+       WHERE user_id = $1
+         AND cityid = $2`,
+      [userId, cityid]
+    );
+    return;
+  }
+
+  /**
+   * 4 Delete all watchers for a user tied to an email
+   * Example: user removes an email subscription.
+   */
+  if (email) {
+    await db.query(
+      `DELETE FROM watchers
+       WHERE user_id = $1
+         AND email = $2`,
+      [userId, email]
+    );
+    return;
+  }
+
+  /**
+   * ❌ No valid delete combination provided
+   * We FAIL HARD instead of guessing.
+   */
+  throw new Error("No valid delete conditions provided");
 }
 
 /**
