@@ -8,11 +8,13 @@ import trafficRoutes from "./routes/trafficRoutes.js";
 import timesRoutes from "./routes/timesRoutes.js";
 import watcherRoutes from "./routes/watcherRoutes.js";
 import loginRoutes from "./routes/loginRoutes.js"; // ✅ ADD THIS
-
+import metaRoutes from "./routes/metaRoutes.js";
 import { startWatcher } from "./automation/watcher.js";
 
 import path from "path";
 import { fileURLToPath } from "url";
+
+
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +29,8 @@ app.use("/api/traffic", trafficRoutes);
 app.use("/api/times", timesRoutes);
 app.use("/api/watchers", watcherRoutes);
 app.use("/api/login", loginRoutes); // ✅ THIS WAS MISSING
+app.use("/api/meta", metaRoutes);
+
 
 // Frontend
 app.use(express.static(path.join(__dirname, "../../frontend")));

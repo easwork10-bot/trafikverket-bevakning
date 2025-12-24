@@ -1,39 +1,29 @@
-// src/controllers/trafficController.js
 import { ok, fail } from "../utils/response.js";
-import { trafikverketRequest } from "../automation/apiClient.js";
+import { getSearchInformation as getSearchInformationService } from "../services/searchInformationService.js";
 
 export async function getSearchInformation(req, res) {
   try {
-    const {userId, ssn, licenceId } = req.body;
+    const { userId, ssn, licenceId } = req.body;
+
     if (!userId) {
       return res.json(fail("Missing userId"));
     }
+
     if (!ssn || !licenceId) {
       return res.json(fail("Missing ssn or licenceId"));
     }
 
-    const body = {
-      bookingSession: {
-        socialSecurityNumber: ssn,
-        licenceId: Number(licenceId),
-        bookingModeId: 0,
-        ignoreDebt: false,
-        ignoreBookingHindrance: false,
-        examinationTypeId: 0
-      }
-    };
-
-    const result = await trafikverketRequest(
+    const data = await getSearchInformationService(
       userId,
-      "search-information",
-      body
+      ssn,
+      Number(licenceId)
     );
 
-    if (!result?.data) {
-      return res.json(fail("Failed retrieving search-information"));
+    if (data?.error) {
+      return res.json(fail(data.error));
     }
 
-    return res.json(ok(result.data));
+    return res.json(ok(data));
   } catch (err) {
     return res.json(fail("Controller error: " + err.message));
   }

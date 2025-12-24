@@ -1,0 +1,262 @@
+[
+  {
+    "id": 4,
+    "name": "A",
+    "description": "Motorcykel",
+    "languageKeyName": "licenceNameA",
+    "languageKeyDescription": "licenceDescA",
+    "category": "Motorcycle",
+    "icon": "icon-a",
+    "sortOrder": 0
+  },
+  {
+    "id": 2,
+    "name": "A1",
+    "description": "Lätt motorcykel",
+    "languageKeyName": "licenceNameA1",
+    "languageKeyDescription": "licenceDescA1",
+    "category": "Motorcycle",
+    "icon": "icon-a1",
+    "sortOrder": 0
+  },
+  {
+    "id": 24,
+    "name": "A2",
+    "description": "Motorcykel (Begränsad)",
+    "languageKeyName": "licenceNameA2",
+    "languageKeyDescription": "licenceDescA2",
+    "category": "Motorcycle",
+    "icon": "icon-a2",
+    "sortOrder": 0
+  },
+  {
+    "id": 32,
+    "name": "ADR",
+    "description": "Farligt gods",
+    "languageKeyName": "licenceNameADR",
+    "languageKeyDescription": "licenceDescADR",
+    "category": "MSB",
+    "icon": "icon-gods",
+    "sortOrder": 0
+  },
+  {
+    "id": 1,
+    "name": "AM",
+    "description": "Moped",
+    "languageKeyName": "licenceNameAM",
+    "languageKeyDescription": "licenceDescAM",
+    "category": "Moped",
+    "icon": "icon-am",
+    "sortOrder": 0
+  },
+  {
+    "id": 33,
+    "name": "APV",
+    "description": "Arbete på väg",
+    "languageKeyName": "licenceNameAPV",
+    "languageKeyDescription": "licenceDescAPV",
+    "category": "Cert",
+    "icon": "icon-gods",
+    "sortOrder": 0
+  },
+  {
+    "id": 5,
+    "name": "B",
+    "description": "Personbil",
+    "languageKeyName": "licenceNameB",
+    "languageKeyDescription": "licenceDescB",
+    "category": "Car",
+    "icon": "icon-b",
+    "sortOrder": 0
+  },
+  {
+    "id": 23,
+    "name": "B96",
+    "description": "Personbil utökad",
+    "languageKeyName": "licenceNameB96",
+    "languageKeyDescription": "licenceDescB96",
+    "category": "Car",
+    "icon": "icon-b96",
+    "sortOrder": 0
+  },
+  {
+    "id": 7,
+    "name": "BE",
+    "description": "Personbil med tungt släp",
+    "languageKeyName": "licenceNameBE",
+    "languageKeyDescription": "licenceDescBE",
+    "category": "Car",
+    "icon": "icon-be",
+    "sortOrder": 0
+  },
+  {
+    "id": 21,
+    "name": "Buss",
+    "description": "YKB",
+    "languageKeyName": "licenceNameYrkesforare_person",
+    "languageKeyDescription": "licenceDescYrkesforare_person",
+    "category": "ProfessionalDriver",
+    "icon": "icon-person",
+    "sortOrder": 0
+  },
+  {
+    "id": 29,
+    "name": "Buss",
+    "description": "Yrkeskunnande för persontransport",
+    "languageKeyName": "licenceNameYrkeskunnande_buss",
+    "languageKeyDescription": "licenceDescYrkeskunnande_buss",
+    "category": "ProfessionalKnowledge",
+    "icon": "icon-buss",
+    "sortOrder": 0
+  },
+  {
+    "id": 8,
+    "name": "C",
+    "description": "Tung lastbil",
+    "languageKeyName": "licenceNameC",
+    "languageKeyDescription": "licenceDescC",
+    "category": "Truck",
+    "icon": "icon-c",
+    "sortOrder": 0
+  },
+  {
+    "id": 25,
+    "name": "C1",
+    "description": "Medeltung lastbil",
+    "languageKeyName": "licenceNameC1",
+    "languageKeyDescription": "licenceDescC1",
+    "category": "Truck",
+    "icon": "icon-c1",
+    "sortOrder": 0
+  },
+  {
+    "id": 26,
+    "name": "C1E",
+    "description": "Medeltung lastbil med tungt släp",
+    "languageKeyName": "licenceNameC1E",
+    "languageKeyDescription": "licenceDescC1E",
+    "category": "Truck",
+    "icon": "icon-c1e",
+    "sortOrder": 0
+  },
+  {
+    "id": 9,
+    "name": "CE",
+    "description": "Tung lastbil med tungt släp",
+    "languageKeyName": "licenceNameCE",
+    "languageKeyDescription": "licenceDescCE",
+    "category": "Truck",
+    "icon": "icon-ce",
+    "sortOrder": 0
+  },
+  {
+    "id": 10,
+    "name": "D",
+    "description": "Buss",
+    "languageKeyName": "licenceNameD",
+    "languageKeyDescription": "licenceDescD",
+    "category": "Bus",
+    "icon": "icon-d",
+    "sortOrder": 0
+  },
+  {
+    "id": 27,
+    "name": "D1",
+    "description": "Buss (Begränsad)",
+    "languageKeyName": "licenceNameD1",
+    "languageKeyDescription": "licenceDescD1",
+    "category": "Bus",
+    "icon": "icon-d1",
+    "sortOrder": 0
+  },
+  {
+    "id": 28,
+    "name": "D1E",
+    "description": "Buss med tungt släp (Begränsad)",
+    "languageKeyName": "licenceNameD1E",
+    "languageKeyDescription": "licenceDescD1E",
+    "category": "Bus",
+    "icon": "icon-d1e",
+    "sortOrder": 0
+  },
+  {
+    "id": 11,
+    "name": "DE",
+    "description": "Buss med tungt släp",
+    "languageKeyName": "licenceNameDE",
+    "languageKeyDescription": "licenceDescDE",
+    "category": "Bus",
+    "icon": "icon-de",
+    "sortOrder": 0
+  },
+  {
+    "id": 22,
+    "name": "Lastbil",
+    "description": "YKB",
+    "languageKeyName": "licenceNameYrkesforare_gods",
+    "languageKeyDescription": "licenceDescYrkesforare_gods",
+    "category": "ProfessionalDriver",
+    "icon": "icon-gods",
+    "sortOrder": 0
+  },
+  {
+    "id": 30,
+    "name": "Lastbil",
+    "description": "Yrkeskunnande för godstransport",
+    "languageKeyName": "licenceNameYrkeskunnande_gods",
+    "languageKeyDescription": "licenceDescYrkeskunnande_gods",
+    "category": "ProfessionalKnowledge",
+    "icon": "icon-gods",
+    "sortOrder": 0
+  },
+  {
+    "id": 31,
+    "name": "Lokförare",
+    "description": "Lokförarbevis",
+    "languageKeyName": "licenceNameTrainDriver",
+    "languageKeyDescription": "licenceDescTrainDriver",
+    "category": "ProfessionalDriver",
+    "icon": "icon-lokfrare",
+    "sortOrder": 0
+  },
+  {
+    "id": 13,
+    "name": "Taxi",
+    "description": "Taxiförarlegitimation",
+    "languageKeyName": "licenceNameTaxi",
+    "languageKeyDescription": "licenceDescTaxi",
+    "category": "ProfessionalDriver",
+    "icon": "icon-taxi",
+    "sortOrder": 0
+  },
+  {
+    "id": 17,
+    "name": "Taxi",
+    "description": "Yrkeskunnande för taxitrafik",
+    "languageKeyName": "licenceNameYrkeskunnande_taxi_Trafiktillstand_",
+    "languageKeyDescription": "licenceDescYrkeskunnande_taxi_Trafiktillstand_",
+    "category": "ProfessionalKnowledge",
+    "icon": "icon-taxi",
+    "sortOrder": 0
+  },
+  {
+    "id": 18,
+    "name": "Traktor",
+    "description": "Traktorkort",
+    "languageKeyName": "licenceNameTractor",
+    "languageKeyDescription": "licenceDescTractor",
+    "category": "Tractor",
+    "icon": "icon-traktor",
+    "sortOrder": 0
+  },
+  {
+    "id": 34,
+    "name": "VVH",
+    "description": "Vinterväghållning",
+    "languageKeyName": "licenceNameVVH",
+    "languageKeyDescription": "licenceDescVVH",
+    "category": "Cert",
+    "icon": "icon-gods",
+    "sortOrder": 0
+  }
+]

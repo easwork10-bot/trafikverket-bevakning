@@ -1,0 +1,1487 @@
+[
+  {
+    "id": 1000137,
+    "name": "Alingsås",
+    "address": {
+      "streetAddress1": "Sveagatan 8K",
+      "streetAddress2": "",
+      "zipCode": "44132",
+      "city": "Alingsås",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.929776,
+      "longitude": 12.540474899999936
+    }
+  },
+  {
+    "id": 1000108,
+    "name": "Arjeplog",
+    "address": {
+      "streetAddress1": "V Skeppsholmen 3 Hornavan Hotell",
+      "streetAddress2": "",
+      "zipCode": "93090",
+      "city": "Arjeplog",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 66.0545565,
+      "longitude": 17.88798989999998
+    }
+  },
+  {
+    "id": 1000109,
+    "name": "Arvidsjaur",
+    "address": {
+      "streetAddress1": "Järnvägsgatan 111",
+      "streetAddress2": "",
+      "zipCode": "93334",
+      "city": "Arvidsjaur",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.5816402,
+      "longitude": 19.19006509999997
+    }
+  },
+  {
+    "id": 1000032,
+    "name": "Arvika ",
+    "address": {
+      "streetAddress1": "Strandvägen 2",
+      "streetAddress2": "",
+      "zipCode": "67151",
+      "city": "Arvika",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.6547024,
+      "longitude": 12.582920400000036
+    }
+  },
+  {
+    "id": 1000099,
+    "name": "Avesta",
+    "address": {
+      "streetAddress1": "Koppardalsvägen 53",
+      "streetAddress2": "",
+      "zipCode": "77441",
+      "city": "Avesta",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.14754784537732,
+      "longitude": 16.17422118951193
+    }
+  },
+  {
+    "id": 1000083,
+    "name": "Boden",
+    "address": {
+      "streetAddress1": "Garnisonsgatan 1 ",
+      "streetAddress2": "",
+      "zipCode": "96143",
+      "city": "Boden",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.8240867,
+      "longitude": 21.699941099999933
+    }
+  },
+  {
+    "id": 1000121,
+    "name": "Bollnäs",
+    "address": {
+      "streetAddress1": "Myrgränd 1",
+      "streetAddress2": "",
+      "zipCode": "82130",
+      "city": "Bollnäs",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 61.339673123216215,
+      "longitude": 16.386652426250865
+    }
+  },
+  {
+    "id": 1000066,
+    "name": "Borås",
+    "address": {
+      "streetAddress1": "Nils Jakobsonsgatan 5A",
+      "streetAddress2": "",
+      "zipCode": "50430",
+      "city": "Borås",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.716566,
+      "longitude": 12.934375
+    }
+  },
+  {
+    "id": 1000075,
+    "name": "Eksjö",
+    "address": {
+      "streetAddress1": "Nifsarpsvägen 4",
+      "streetAddress2": "",
+      "zipCode": "57596",
+      "city": "Eksjö",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.6371364,
+      "longitude": 14.971379500000012
+    }
+  },
+  {
+    "id": 1000072,
+    "name": "Enköping",
+    "address": {
+      "streetAddress1": "Idrottshuset, Torggatan 2A",
+      "streetAddress2": "",
+      "zipCode": "74949",
+      "city": "Enköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.63097159999999,
+      "longitude": 17.08956809999995
+    }
+  },
+  {
+    "id": 1000005,
+    "name": "Eskilstuna",
+    "address": {
+      "streetAddress1": "Fraktgatan 6, Eskilstuna",
+      "streetAddress2": "",
+      "zipCode": "63346",
+      "city": "Eskilstuna",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.38773578304762,
+      "longitude": 16.495951580130207
+    }
+  },
+  {
+    "id": 1000039,
+    "name": "Fagersta",
+    "address": {
+      "streetAddress1": "Järnvägstorget 3",
+      "streetAddress2": "",
+      "zipCode": "73732",
+      "city": "Fagersta",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.0036672,
+      "longitude": 15.799267800000052
+    }
+  },
+  {
+    "id": 1000060,
+    "name": "Falkenberg",
+    "address": {
+      "streetAddress1": "Oktanvägen 5",
+      "streetAddress2": "",
+      "zipCode": "31132",
+      "city": "Falkenberg",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.9086284,
+      "longitude": 12.462178999999992
+    }
+  },
+  {
+    "id": 1000070,
+    "name": "Falköping",
+    "address": {
+      "streetAddress1": "Nils Ericsonsgatan 5 ",
+      "streetAddress2": "",
+      "zipCode": "52131",
+      "city": "Falköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.1782952,
+      "longitude": 13.553489300000024
+    }
+  },
+  {
+    "id": 1000098,
+    "name": "Falun",
+    "address": {
+      "streetAddress1": "Yxhammargatan 1",
+      "streetAddress2": "",
+      "zipCode": "79173",
+      "city": "Falun",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.60517840000001,
+      "longitude": 15.62258829999996
+    }
+  },
+  {
+    "id": 1000302,
+    "name": "Gillinge Trafikövningsplats",
+    "address": {
+      "streetAddress1": "Gillinge 1",
+      "streetAddress2": "",
+      "zipCode": "186 91",
+      "city": "Vallentuna",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.5082856,
+      "longitude": 18.1762334
+    }
+  },
+  {
+    "id": 1000317,
+    "name": "Gislaved",
+    "address": {
+      "streetAddress1": "Södra Storgatan 7",
+      "streetAddress2": "",
+      "zipCode": "33221",
+      "city": "Gislaved",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.301405,
+      "longitude": 13.537285999999996
+    }
+  },
+  {
+    "id": 1000090,
+    "name": "Gällivare",
+    "address": {
+      "streetAddress1": "Lasarettsgatan 22",
+      "streetAddress2": "",
+      "zipCode": "98232",
+      "city": "Gällivare",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 67.1325442,
+      "longitude": 20.665946200000008
+    }
+  },
+  {
+    "id": 1000118,
+    "name": "Gävle",
+    "address": {
+      "streetAddress1": "REDARGATAN 18",
+      "streetAddress2": "",
+      "zipCode": "803 02",
+      "city": "Gävle",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.681973327847174,
+      "longitude": 17.164801296943825
+    }
+  },
+  {
+    "id": 1000059,
+    "name": "Halmstad",
+    "address": {
+      "streetAddress1": "Andersbergsringen 104",
+      "streetAddress2": "",
+      "zipCode": "30255",
+      "city": "Halmstad",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.6578884,
+      "longitude": 12.897756299999967
+    }
+  },
+  {
+    "id": 1000114,
+    "name": "Hammarstrand",
+    "address": {
+      "streetAddress1": "Centralgatan 55",
+      "streetAddress2": "",
+      "zipCode": "84070",
+      "city": "Hammarstrand",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.1027645,
+      "longitude": 16.3585918
+    }
+  },
+  {
+    "id": 1000084,
+    "name": "Haparanda",
+    "address": {
+      "streetAddress1": "Norrmalmsvägen 2 B",
+      "streetAddress2": "",
+      "zipCode": "95334",
+      "city": "Haparanda",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.8395237,
+      "longitude": 24.126738199999977
+    }
+  },
+  {
+    "id": 1000101,
+    "name": "Hedemora",
+    "address": {
+      "streetAddress1": "Kraftgatan 8",
+      "streetAddress2": "",
+      "zipCode": "77623",
+      "city": "Hedemora",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.289475044069974,
+      "longitude": 15.982482885705611
+    }
+  },
+  {
+    "id": 1000123,
+    "name": "Helsingborg",
+    "address": {
+      "streetAddress1": "Rundgången 32",
+      "streetAddress2": "",
+      "zipCode": "25452",
+      "city": "Helsingborg",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.06397399999999,
+      "longitude": 12.70898490000002
+    }
+  },
+  {
+    "id": 1000056,
+    "name": "Hudiksvall",
+    "address": {
+      "streetAddress1": "Mickelsvägen 5",
+      "streetAddress2": "",
+      "zipCode": "824 34",
+      "city": "Hudiksvall",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 61.7409869,
+      "longitude": 17.08838549999996
+    }
+  },
+  {
+    "id": 1000057,
+    "name": "Härnösand",
+    "address": {
+      "streetAddress1": "Nattviksgatan 8",
+      "streetAddress2": "",
+      "zipCode": "87145",
+      "city": "Härnösand",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 62.633222,
+      "longitude": 17.92922729999998
+    }
+  },
+  {
+    "id": 1000045,
+    "name": "Hässleholm",
+    "address": {
+      "streetAddress1": "Björklundavägen 9",
+      "streetAddress2": "",
+      "zipCode": "28133",
+      "city": "HÄSSLEHOLM",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.1445781,
+      "longitude": 13.768245699999966
+    }
+  },
+  {
+    "id": 1000091,
+    "name": "Jokkmokk",
+    "address": {
+      "streetAddress1": "Lappstavägen 9",
+      "streetAddress2": "",
+      "zipCode": "96231",
+      "city": "Jokkmokk",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 66.6020753,
+      "longitude": 19.843495200000007
+    }
+  },
+  {
+    "id": 1000115,
+    "name": "Järpen",
+    "address": {
+      "streetAddress1": "Norra Vägen 21",
+      "streetAddress2": "",
+      "zipCode": "83005",
+      "city": "Järpen",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.34524079999999,
+      "longitude": 13.465644500000051
+    }
+  },
+  {
+    "id": 1000074,
+    "name": "Jönköping",
+    "address": {
+      "streetAddress1": "Bataljonsgatan 8",
+      "streetAddress2": "",
+      "zipCode": "55305",
+      "city": "Jönköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.77337799999999,
+      "longitude": 14.208755399999973
+    }
+  },
+  {
+    "id": 1000085,
+    "name": "Kalix",
+    "address": {
+      "streetAddress1": "Strandgatan 21",
+      "streetAddress2": "",
+      "zipCode": "95233",
+      "city": "Kalix",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.85565,
+      "longitude": 23.14326
+    }
+  },
+  {
+    "id": 1000093,
+    "name": "Kalmar",
+    "address": {
+      "streetAddress1": "Karlstorpsvägen 16",
+      "streetAddress2": "",
+      "zipCode": "392 39",
+      "city": "Kalmar",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.6737378,
+      "longitude": 16.328569000000016
+    }
+  },
+  {
+    "id": 1000336,
+    "name": "Karlshamn",
+    "address": {
+      "streetAddress1": "Sölvesborgsvägen 37",
+      "streetAddress2": "",
+      "zipCode": "37432",
+      "city": "Karlshamn",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.185491585990064,
+      "longitude": 14.84887974168346
+    }
+  },
+  {
+    "id": 1000003,
+    "name": "Karlskoga",
+    "address": {
+      "streetAddress1": "Sandviksvägen 10",
+      "streetAddress2": "",
+      "zipCode": "691 52",
+      "city": "Karlskoga",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.32958598455309,
+      "longitude": 14.562142361414768
+    }
+  },
+  {
+    "id": 1000047,
+    "name": "Karlskrona",
+    "address": {
+      "streetAddress1": "Blåportsgatan 7",
+      "streetAddress2": "",
+      "zipCode": "371 56",
+      "city": "Karlskrona",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.1753514,
+      "longitude": 15.597191199999996
+    }
+  },
+  {
+    "id": 1000031,
+    "name": "Karlstad",
+    "address": {
+      "streetAddress1": "Körkarlsvägen 5",
+      "streetAddress2": "",
+      "zipCode": "65346",
+      "city": "Karlstad",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.379325597242314,
+      "longitude": 13.43331796885133
+    }
+  },
+  {
+    "id": 1000007,
+    "name": "Katrineholm ",
+    "address": {
+      "streetAddress1": "Mejerigatan 11",
+      "streetAddress2": "",
+      "zipCode": "641 39",
+      "city": "Katrineholm",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.99401,
+      "longitude": 16.18809
+    }
+  },
+  {
+    "id": 1000068,
+    "name": "Kinna",
+    "address": {
+      "streetAddress1": "Backagårdsgatan 2",
+      "streetAddress2": "",
+      "zipCode": "51157",
+      "city": "Kinna",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.5128331,
+      "longitude": 12.708014000000048
+    }
+  },
+  {
+    "id": 1000092,
+    "name": "Kiruna",
+    "address": {
+      "streetAddress1": "Malmvägen 1B, 981 37 KIRUNA",
+      "streetAddress2": "",
+      "zipCode": "98137",
+      "city": "Kiruna",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 67.848301,
+      "longitude": 20.300537
+    }
+  },
+  {
+    "id": 1000139,
+    "name": "Kramfors",
+    "address": {
+      "streetAddress1": "Parkgatan 14",
+      "streetAddress2": "",
+      "zipCode": "872 35",
+      "city": "Kramfors",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 62.9298735,
+      "longitude": 17.771059700000023
+    }
+  },
+  {
+    "id": 1000046,
+    "name": "Kristianstad",
+    "address": {
+      "streetAddress1": "Björkhemsvägen 13",
+      "streetAddress2": "",
+      "zipCode": "29154",
+      "city": "Kristianstad",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.0288723,
+      "longitude": 14.179839799999968
+    }
+  },
+  {
+    "id": 1000321,
+    "name": "Kungsbacka",
+    "address": {
+      "streetAddress1": "Verkstadsgatan 7",
+      "streetAddress2": "",
+      "zipCode": "43442",
+      "city": "KUNGSBACKA",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.47976000000001,
+      "longitude": 12.084300299999995
+    }
+  },
+  {
+    "id": 1000040,
+    "name": "Köping",
+    "address": {
+      "streetAddress1": "Sjötullsvägen 3B",
+      "streetAddress2": "",
+      "zipCode": "73136",
+      "city": "Köping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.50501533376462,
+      "longitude": 15.995183970899172
+    }
+  },
+  {
+    "id": 1000069,
+    "name": "Lidköping",
+    "address": {
+      "streetAddress1": "Sockerbruksgatan 1, Entré E",
+      "streetAddress2": "",
+      "zipCode": "53140",
+      "city": "Lidköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.50497646817024,
+      "longitude": 13.165590907315824
+    }
+  },
+  {
+    "id": 1000004,
+    "name": "Lindesberg",
+    "address": {
+      "streetAddress1": "Nyborgsgatan 1 (Lindesberg Arena)",
+      "streetAddress2": "",
+      "zipCode": "71134",
+      "city": "Lindesberg",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.593219,
+      "longitude": 15.214654600000015
+    }
+  },
+  {
+    "id": 1000009,
+    "name": "Linköping",
+    "address": {
+      "streetAddress1": "Gelbgjutaregatan 2D",
+      "streetAddress2": "",
+      "zipCode": "58254",
+      "city": "Linköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.4061305,
+      "longitude": 15.6499986
+    }
+  },
+  {
+    "id": 1000055,
+    "name": "Ljusdal",
+    "address": {
+      "streetAddress1": "N:a Järnvägsgatan 41",
+      "streetAddress2": "",
+      "zipCode": "82703",
+      "city": "Ljusdal",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 61.82755169999999,
+      "longitude": 16.097206400000005
+    }
+  },
+  {
+    "id": 1000102,
+    "name": "Ludvika",
+    "address": {
+      "streetAddress1": "Tingshusgata 18",
+      "streetAddress2": "",
+      "zipCode": "77131",
+      "city": "Ludvika",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.1508498,
+      "longitude": 15.191043000000036
+    }
+  },
+  {
+    "id": 1000082,
+    "name": "Luleå",
+    "address": {
+      "streetAddress1": "Sundsbacken 4",
+      "streetAddress2": "",
+      "zipCode": "97242",
+      "city": "Luleå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.5880126,
+      "longitude": 22.16522610000004
+    }
+  },
+  {
+    "id": 1000022,
+    "name": "Lycksele",
+    "address": {
+      "streetAddress1": "Storgatan 28 1 tr",
+      "streetAddress2": "",
+      "zipCode": "92132",
+      "city": "Lycksele",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 64.59499690000001,
+      "longitude": 18.677269000000024
+    }
+  },
+  {
+    "id": 1000061,
+    "name": "Malmö",
+    "address": {
+      "streetAddress1": "Cederströmsgatan 1B",
+      "streetAddress2": "",
+      "zipCode": "212 39",
+      "city": "Malmö",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 55.59744079999999,
+      "longitude": 13.061538700000028
+    }
+  },
+  {
+    "id": 1000103,
+    "name": "Malung",
+    "address": {
+      "streetAddress1": "Parkvägen 1",
+      "streetAddress2": "",
+      "zipCode": "78234",
+      "city": "Malung",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.68959779999999,
+      "longitude": 13.72418570000002
+    }
+  },
+  {
+    "id": 1000012,
+    "name": "Mjölby",
+    "address": {
+      "streetAddress1": "Lagmansgatan 26",
+      "streetAddress2": "",
+      "zipCode": "59551",
+      "city": "Mjölby",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.32187690000001,
+      "longitude": 15.134437400000024
+    }
+  },
+  {
+    "id": 1000104,
+    "name": "Mora",
+    "address": {
+      "streetAddress1": "Skepphusvägen 4",
+      "streetAddress2": "",
+      "zipCode": "79231",
+      "city": "Mora",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 61.004878,
+      "longitude": 14.537003000000029
+    }
+  },
+  {
+    "id": 1000011,
+    "name": "Motala",
+    "address": {
+      "streetAddress1": "Sjögatan 5",
+      "streetAddress2": "",
+      "zipCode": "59130",
+      "city": "Motala",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.5352354,
+      "longitude": 15.035623499999929
+    }
+  },
+  {
+    "id": 1000329,
+    "name": "Norrköping",
+    "address": {
+      "streetAddress1": "Sprängstensgatan 1",
+      "streetAddress2": "",
+      "zipCode": "603 79",
+      "city": "NORRKÖPING",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.57186850000001,
+      "longitude": 16.181573399999934
+    }
+  },
+  {
+    "id": 1000149,
+    "name": "Nyköping",
+    "address": {
+      "streetAddress1": "Tvålgränd 7",
+      "streetAddress2": "",
+      "zipCode": "61138",
+      "city": "Nyköping",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.75306020000001,
+      "longitude": 16.994760300000053
+    }
+  },
+  {
+    "id": 1000076,
+    "name": "Nässjö",
+    "address": {
+      "streetAddress1": "Bäckgatan 4B",
+      "streetAddress2": "",
+      "zipCode": "57141",
+      "city": "Nässjö",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.65873149999999,
+      "longitude": 14.69972150000001
+    }
+  },
+  {
+    "id": 1000094,
+    "name": "Oskarshamn",
+    "address": {
+      "streetAddress1": "Södra Fabriksgatan 20",
+      "streetAddress2": "",
+      "zipCode": "57236",
+      "city": "Oskarshamn",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.2565714,
+      "longitude": 16.435195600000043
+    }
+  },
+  {
+    "id": 1000086,
+    "name": "Pajala",
+    "address": {
+      "streetAddress1": "Teknikvägen 1E",
+      "streetAddress2": "",
+      "zipCode": "98432",
+      "city": "Pajala",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 67.20756039999999,
+      "longitude": 23.368298500000037
+    }
+  },
+  {
+    "id": 1000087,
+    "name": "Piteå",
+    "address": {
+      "streetAddress1": "Olof Palmesgata 2",
+      "streetAddress2": "",
+      "zipCode": "94133",
+      "city": "Piteå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 65.3203614,
+      "longitude": 21.48606970000003
+    }
+  },
+  {
+    "id": 1000049,
+    "name": "Ronneby",
+    "address": {
+      "streetAddress1": "Stadshuset Karlshamnsvägen 4",
+      "streetAddress2": "",
+      "zipCode": "37280",
+      "city": "Ronneby",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.2130741,
+      "longitude": 15.27260339999998
+    }
+  },
+  {
+    "id": 1000041,
+    "name": "Sala",
+    "address": {
+      "streetAddress1": "Fabriksgatan 2A",
+      "streetAddress2": "",
+      "zipCode": "73321",
+      "city": "Sala",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.91864094732699,
+      "longitude": 16.61732734419427
+    }
+  },
+  {
+    "id": 1000119,
+    "name": "Sandviken",
+    "address": {
+      "streetAddress1": "Arenavägen 4",
+      "streetAddress2": "",
+      "zipCode": "811 61",
+      "city": "Sandviken",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 60.6075044,
+      "longitude": 16.770399099999963
+    }
+  },
+  {
+    "id": 1000111,
+    "name": "Skellefteå",
+    "address": {
+      "streetAddress1": "Södra järnvägsgatan 49B",
+      "streetAddress2": "",
+      "zipCode": "93132",
+      "city": "Skellefteå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 64.7528432,
+      "longitude": 20.95751759999996
+    }
+  },
+  {
+    "id": 1000130,
+    "name": "Skövde",
+    "address": {
+      "streetAddress1": "Ventilvägen 12",
+      "streetAddress2": "",
+      "zipCode": "54937",
+      "city": "Skövde",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.398608848003875,
+      "longitude": 13.873031709198004
+    }
+  },
+  {
+    "id": 1000107,
+    "name": "Sollefteå",
+    "address": {
+      "streetAddress1": "Järnvägsgatan 18",
+      "streetAddress2": "",
+      "zipCode": "88130",
+      "city": "Sollefteå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.16816294985725,
+      "longitude": 17.262371436481303
+    }
+  },
+  {
+    "id": 1000054,
+    "name": "Strömstad",
+    "address": {
+      "streetAddress1": "Ringvägen 112",
+      "streetAddress2": "",
+      "zipCode": "45235",
+      "city": "Strömstad",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.9490176,
+      "longitude": 11.192425200000002
+    }
+  },
+  {
+    "id": 1000116,
+    "name": "Strömsund",
+    "address": {
+      "streetAddress1": "Ramselevägen 6",
+      "streetAddress2": "",
+      "zipCode": "83335",
+      "city": "Strömsund",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.8491588,
+      "longitude": 15.5592484
+    }
+  },
+  {
+    "id": 1000105,
+    "name": "Sundsvall",
+    "address": {
+      "streetAddress1": "Heffners Allé 51",
+      "streetAddress2": "",
+      "zipCode": "85633",
+      "city": "Sundsvall",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 62.394559076200096,
+      "longitude": 17.334302042127405
+    }
+  },
+  {
+    "id": 1000036,
+    "name": "Sunne ",
+    "address": {
+      "streetAddress1": "Järnvägsgatan 8 ",
+      "streetAddress2": "",
+      "zipCode": "68630",
+      "city": "Sunne",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.8339808,
+      "longitude": 13.147852400000032
+    }
+  },
+  {
+    "id": 1000117,
+    "name": "Sveg",
+    "address": {
+      "streetAddress1": "Ljusnegatan 1",
+      "streetAddress2": "",
+      "zipCode": "84232",
+      "city": "Sveg",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 62.0325904,
+      "longitude": 14.36576690000004
+    }
+  },
+  {
+    "id": 1000037,
+    "name": "Säffle",
+    "address": {
+      "streetAddress1": "Kyrkogatan 4",
+      "streetAddress2": "",
+      "zipCode": "66140",
+      "city": "SÄFFLE",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.1342085,
+      "longitude": 12.929632200000016
+    }
+  },
+  {
+    "id": 1000144,
+    "name": "Säve",
+    "address": {
+      "streetAddress1": "Flatåkern 2",
+      "streetAddress2": "",
+      "zipCode": "42370",
+      "city": "Säve",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.79977510000001,
+      "longitude": 11.913414399999963
+    }
+  },
+  {
+    "id": 1000120,
+    "name": "Söderhamn",
+    "address": {
+      "streetAddress1": "Granvägen 1",
+      "streetAddress2": "",
+      "zipCode": "826 35",
+      "city": "Söderhamn",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 61.3063996,
+      "longitude": 17.046101300000032
+    }
+  },
+  {
+    "id": 1000077,
+    "name": "Tranås",
+    "address": {
+      "streetAddress1": "Hamnparken 2",
+      "streetAddress2": "",
+      "zipCode": "57335",
+      "city": "Tranås",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.0359094,
+      "longitude": 14.975375299999996
+    }
+  },
+  {
+    "id": 1000126,
+    "name": "Uddevalla",
+    "address": {
+      "streetAddress1": "Kurödsvägen 3B",
+      "streetAddress2": "",
+      "zipCode": "45155",
+      "city": "Uddevalla",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.3560093,
+      "longitude": 11.975207100000034
+    }
+  },
+  {
+    "id": 1000067,
+    "name": "Ulricehamn",
+    "address": {
+      "streetAddress1": "Tre rosors väg 4",
+      "streetAddress2": "",
+      "zipCode": "52386",
+      "city": "Ulricehamn",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.7961489,
+      "longitude": 13.423378599999978
+    }
+  },
+  {
+    "id": 1000021,
+    "name": "Umeå",
+    "address": {
+      "streetAddress1": "Storgatan 60",
+      "streetAddress2": "",
+      "zipCode": "90330",
+      "city": "Umeå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.82266719999999,
+      "longitude": 20.27492319999999
+    }
+  },
+  {
+    "id": 1000071,
+    "name": "Uppsala",
+    "address": {
+      "streetAddress1": "Hållnäsgatan 8A",
+      "streetAddress2": "",
+      "zipCode": "75228",
+      "city": "Uppsala",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.88,
+      "longitude": 17.58802
+    }
+  },
+  {
+    "id": 1000322,
+    "name": "Varberg",
+    "address": {
+      "streetAddress1": "Härdgatan 23",
+      "streetAddress2": "",
+      "zipCode": "43232",
+      "city": "VARBERG",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.12085339999999,
+      "longitude": 12.28948409999998
+    }
+  },
+  {
+    "id": 1000078,
+    "name": "Vetlanda",
+    "address": {
+      "streetAddress1": "Fabriksgatan 1A",
+      "streetAddress2": "",
+      "zipCode": "57438",
+      "city": "Vetlanda",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.43188120000001,
+      "longitude": 15.073831100000008
+    }
+  },
+  {
+    "id": 1000027,
+    "name": "Vilhelmina",
+    "address": {
+      "streetAddress1": "Volgsjövägen 36",
+      "streetAddress2": "",
+      "zipCode": "912 32",
+      "city": "Vilhelmina",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 64.62498352451473,
+      "longitude": 16.65438736325153
+    }
+  },
+  {
+    "id": 1000015,
+    "name": "Vimmerby",
+    "address": {
+      "streetAddress1": "Lögstadsgatan 5",
+      "streetAddress2": "",
+      "zipCode": "59839",
+      "city": "Vimmerby",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.6608986,
+      "longitude": 15.86451379999994
+    }
+  },
+  {
+    "id": 1000097,
+    "name": "Visby",
+    "address": {
+      "streetAddress1": "Broväg 10",
+      "streetAddress2": "",
+      "zipCode": "62140",
+      "city": "Visby",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.64497189999999,
+      "longitude": 18.313385799999992
+    }
+  },
+  {
+    "id": 1000127,
+    "name": "Vänersborg",
+    "address": {
+      "streetAddress1": "Stampgatan 14",
+      "streetAddress2": "",
+      "zipCode": "46273",
+      "city": "Vänersborg",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 58.338836,
+      "longitude": 12.250827200000003
+    }
+  },
+  {
+    "id": 1000318,
+    "name": "Värnamo",
+    "address": {
+      "streetAddress1": "Myntgtan 11 A",
+      "streetAddress2": "",
+      "zipCode": "33130",
+      "city": "Värnamo",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.1849148,
+      "longitude": 14.039591100000052
+    }
+  },
+  {
+    "id": 1000333,
+    "name": "Västerhaninge",
+    "address": {
+      "streetAddress1": "Industrivägen 5",
+      "streetAddress2": "",
+      "zipCode": "137 37",
+      "city": "VÄSTERHANINGE",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.11502,
+      "longitude": 18.07946
+    }
+  },
+  {
+    "id": 1000334,
+    "name": "Västerhaninge 2",
+    "address": {
+      "streetAddress1": "Industrivägen 5",
+      "streetAddress2": "",
+      "zipCode": "131 37",
+      "city": "VÄSTERHANINGE",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.11502,
+      "longitude": 18.07946
+    }
+  },
+  {
+    "id": 1000095,
+    "name": "Västervik",
+    "address": {
+      "streetAddress1": "Kristinebergsgatan 20",
+      "streetAddress2": "",
+      "zipCode": "59361",
+      "city": "Västervik",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 57.7625027,
+      "longitude": 16.613504799999987
+    }
+  },
+  {
+    "id": 1000038,
+    "name": "Västerås",
+    "address": {
+      "streetAddress1": "Gasverksgatan 7A",
+      "streetAddress2": "",
+      "zipCode": "72130",
+      "city": "Västerås",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.61027916941066,
+      "longitude": 16.56530432376029
+    }
+  },
+  {
+    "id": 1000030,
+    "name": "Växjö",
+    "address": {
+      "streetAddress1": "Honnörsgatan 26",
+      "streetAddress2": "",
+      "zipCode": "35236",
+      "city": "Växjö",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.87826769999999,
+      "longitude": 14.777765700000032
+    }
+  },
+  {
+    "id": 1000064,
+    "name": "Ystad",
+    "address": {
+      "streetAddress1": "Aktergatan 2",
+      "streetAddress2": "",
+      "zipCode": "271 55",
+      "city": "Ystad",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 55.430330932914785,
+      "longitude": 13.775566727890864
+    }
+  },
+  {
+    "id": 1000328,
+    "name": "Ånge",
+    "address": {
+      "streetAddress1": "Järnvägsgatan 3A",
+      "streetAddress2": "",
+      "zipCode": "841 33",
+      "city": "ÅNGE",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 62.5236629,
+      "longitude": 15.658153900000002
+    }
+  },
+  {
+    "id": 1000122,
+    "name": "Ängelholm",
+    "address": {
+      "streetAddress1": "Brandsvigsgatan 6",
+      "streetAddress2": "",
+      "zipCode": "26273",
+      "city": "Ängelholm",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 56.2531872,
+      "longitude": 12.905027399999994
+    }
+  },
+  {
+    "id": 1000001,
+    "name": "Örebro",
+    "address": {
+      "streetAddress1": "Bettorpsgatan 10",
+      "streetAddress2": "",
+      "zipCode": "70369",
+      "city": "Örebro",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 59.300418,
+      "longitude": 15.230025000000069
+    }
+  },
+  {
+    "id": 1000106,
+    "name": "Örnsköldsvik",
+    "address": {
+      "streetAddress1": "Järvedsleden 4B",
+      "streetAddress2": "",
+      "zipCode": "89160",
+      "city": "Örnsköldsvik",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.2834534,
+      "longitude": 18.735887700000035
+    }
+  },
+  {
+    "id": 1000112,
+    "name": "Östersund",
+    "address": {
+      "streetAddress1": "Armègränd 3",
+      "streetAddress2": "",
+      "zipCode": "83132",
+      "city": "Östersund",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 63.1850854,
+      "longitude": 14.645265699999982
+    }
+  },
+  {
+    "id": 1000089,
+    "name": "Övertorneå",
+    "address": {
+      "streetAddress1": "Bergsgatan 2",
+      "streetAddress2": "",
+      "zipCode": "95731",
+      "city": "Övertorneå",
+      "careOf": ""
+    },
+    "coordinates": {
+      "latitude": 66.3889676,
+      "longitude": 23.653102799999942
+    }
+  }
+]
