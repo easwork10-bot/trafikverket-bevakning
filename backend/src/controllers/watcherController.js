@@ -32,9 +32,9 @@ export async function listWatchers(req, res) {
  */
 export async function createWatcher(req, res) {
   try {
-    const { userId, ssn, licenceId, cityid, email } = req.body;
+    const { userId, ssn, licenceId,examinationTypeId, cityid, email } = req.body;
 
-    if (!userId || !ssn || !licenceId || !cityid || !email) {
+    if (!userId || !ssn || !licenceId ||!examinationTypeId || !cityid || !email) {
       return res.json(fail("Missing required fields"));
     }
 
@@ -42,6 +42,7 @@ export async function createWatcher(req, res) {
       Number(userId),
       ssn,
       Number(licenceId),
+      Number(examinationTypeId),
       Number(cityid),
       email
     );

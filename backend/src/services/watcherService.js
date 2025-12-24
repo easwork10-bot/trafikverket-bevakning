@@ -12,16 +12,24 @@ export async function getWatchers(userId) {
   );
   return res.rows;
 }
+// NEW – for background jobs
+export async function getAllWatchers() {
+  const res = await db.query(
+    `SELECT * FROM watchers ORDER BY id ASC`
+  );
+  return res.rows;
+}
+
 
 /**
  * Skapa watcher
  */
-export async function addWatcher(userId, ssn, licenceId, cityid, email) {
+export async function addWatcher(userId, ssn, licenceId,examinationTypeId,  cityid, email) {
   const result = await db.query(
-    `INSERT INTO watchers (user_id, ssn, licenceid, cityid, email)
-     VALUES ($1,$2,$3,$4,$5)
+    `INSERT INTO watchers (user_id, ssn, licenceid,examinationtypeid, cityid, email)
+     VALUES ($1,$2,$3,$4,$5,$6)
      RETURNING *`,
-    [userId, ssn, licenceId, cityid, email]
+    [userId, ssn, licenceId,examinationTypeId, cityid, email]
   );
 
   log.info(`[WATCHER-SERVICE] Watcher created for user ${userId}`);

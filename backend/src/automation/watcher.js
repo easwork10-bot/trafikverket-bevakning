@@ -1,6 +1,6 @@
 // src/automation/watcher.js
 import { getTimes } from "../services/timesService.js";
-import { getWatchers, updateWatcherState, getWatcherState } from "../services/watcherService.js";
+import { getAllWatchers, updateWatcherState, getWatcherState } from "../services/watcherService.js";
 import { keepAlive } from "./keepAlive.js";
 import { sendEmail } from "../services/notifier.js";
 import { log } from "../utils/logger.js";
@@ -15,10 +15,11 @@ export function startWatcher() {
   async function loop() {
     log.info("[WATCHER] Cycle started");
 
-    const watchers = await getWatchers(1);
-    for (const w of watchers) {
-      await processWatcher(w);
-    }
+    const watchers = await getAllWatchers();
+
+for (const watch of watchers) {
+  await processWatcher(watch);
+}
 
     const next = getSmartInterval();
     log.info(`[WATCHER] Next run in ${Math.floor(next / 60000)} min`);
@@ -46,7 +47,7 @@ async function processWatcher(watch) {
     watch.user_id,
     watch.ssn,
     watch.licenceid,
-    52,
+    watch.examinationtypeid,
     watch.cityid
   );
 

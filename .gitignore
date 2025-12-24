@@ -148,3 +148,4 @@ backend/testSuggested.js
 backend/testWatcher.js
 backend/testEmail2.js
 backend/receive-test.js
+backend/testMetadataWriter.js
